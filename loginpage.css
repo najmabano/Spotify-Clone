@@ -1,0 +1,99 @@
+@import url("");
+:root{
+    --bg:white;
+    --txt:black;
+}
+body{
+    font-family:"Roboto",sans-serif;
+}
+/*img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }*/
+
+
+.center{
+    display: grid;
+    place-items: center;
+    font-family: "Roboto",sans-serif;
+}
+.center .logo{
+    background: url("logo.jpg") no-repeat; 
+    width: 100px; 
+    height: 100px; 
+    display: block; 
+    text-indent: -9999px;
+}
+.head-style{
+    display: grid;
+    place-items: center;
+    border: 1px;
+    border-bottom-style: solid;
+    border-color: #e2e8f0;
+}
+.svg-class{
+    width: 200px;
+    height: 85;
+}
+.center .cont{
+    font-weight: bold;
+}
+
+a{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-color: #cbd5e0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 12px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    width: 400px;
+    color: #757070;
+}
+a:nth-child(2){
+    background-color: rgb(59,89,152);
+    color: white;
+}
+a:nth-child(3){
+    background-color: black;
+    color: white;
+}
+
+.input-grid{
+    display: grid;
+}
+.form-label{
+    padding-bottom: 12px;
+}
+.input{
+    padding: 15px;
+    width:400px;
+   
+}
+.input:nth-child(2){
+    margin-bottom: 15px;
+}
+.form-down{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+}
+.form-down button{
+    background-color: green;
+    color: white;
+    width: 120px;
+    border: none;
+    padding: 12px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+
